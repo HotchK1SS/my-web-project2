@@ -1,0 +1,8 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Сапёр</title><link rel="stylesheet" href="style.css"></head>
+<body><main class="app"><h1>💣 Сапёр</h1><div class="toolbar"><label>Сложность <select id="level"><option value="easy">Легко — 9×9</option><option value="medium">Средне — 16×16</option><option value="hard">Сложно — 16×30</option></select></label><button id="restart">Новая игра</button></div>
+<div class="status"><span id="counter">🚩 10</span><strong id="message">Начни игру!</strong><span id="timer">⏱️ 0</span></div>
+<div id="boardWrap"><div id="board" aria-label="Игровое поле"></div></div>
+<p class="hint">Левая кнопка мыши — открыть клетку, правая — установить флаг. На телефоне включи режим «🚩 Флаг».</p><button id="flagMode" class="flag-mode">🚩 Флаг: выкл.</button>
+</main><script src="script.js"></script></body></html>
